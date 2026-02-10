@@ -79,5 +79,16 @@
 		 height: auto;
 		 padding-block: 0;
 	}
+
+	.sticky-price{
+		top: 0!important;
+	}
+
+	.p-hotelCard__content__bottom__right__spacer {
+	    align-items: flex-start;
+	}
+	.p-hotelCard__content .label-banner {
+	 border: solid 1px #E8E8E8;
+	}
 }
  
