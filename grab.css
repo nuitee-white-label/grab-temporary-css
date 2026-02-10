@@ -85,7 +85,7 @@
 	}
 
 	.p-hotelCard__content__bottom__right__spacer {
-	    align-items: flex-start;
+	    align-items: flex-start!important;
 	}
 	.p-hotelCard__content .label-banner {
 	 border: solid 1px #E8E8E8;
