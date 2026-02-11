@@ -1,103 +1,169 @@
 /* Grab Custom CSS */
 /* Primary Brand Color */
- :root {
-	 --theme-primary: #00B14F;
+:root {
+  --theme-primary: #00B14F;
 }
- .hero-content {
-	 background-color: transparent !important;
-	 padding-top: 0 !important;
+.hero-content {
+  background-color: transparent !important;
+  padding-top: 0 !important;
 }
- @media (max-width: 768px) {
-	 .v-hotelsList {
-		 margin-top: 0 !important;
-	}
-	 .hero {
-		 min-height: fit-content !important;
-	}
-	 .hero-content {
-		 background-color: transparent !important;
-		 padding-top: 0 !important;
-		 background-image: url('https://grab.staging.nuitee.link/grab/bg-wave.svg') !important;
-		 background-size: contain !important;
-		 background-position: top center !important;
-		 background-repeat: no-repeat !important;
-		 padding-inline: 10px;
-	}
-	 .hero-content .hero-content-width {
-		 gap: 10px;
-		 height: fit-content;
-	}
-	 .hero-content .grab-title {
-		 color: white;
-		 font-weight: 700;
-		 font-size: 16px;
-		 line-height: 24px;
-		 padding-top: 10px;
-		 padding-right: 14px;
-	}
-	 .hero-content .grabBedIcon {
-		 width: 130px;
-		 height: 130px;
-		 object-fit: cover;
-		 object-position: center;
-		 z-index: 1;
-	}
-	 .hero-content .fields.home-search {
-		 padding: 20px !important;
-		 border: none !important;
-		 box-shadow: 0px 8px 24px 0px #1c1c1c 1A;
-	}
-	 
-	 .hero-content .fields.home-search .search-btn .p-button-icon-left {
-		 color: white !important;
-		 font-weight: 600 !important;
-	}
-	 .hero-content .fields.home-search .search-btn .p-button-label {
-		 font-weight: 600 !important;
-		 font-style: semi-bold !important;
-		 font-size: 16px !important;
-		 line-height: 24px !important;
-	}
-	 .hero-content .fields.home-search .field {
-		 border-radius: 16px !important;
-		 height: 56px;
-		 padding-block: 0 !important;
-	}
-	 .hero-content .fields.home-search .field .autocomplete-trigger, .hero-content .fields.home-search .field .guests-input, .hero-content .fields.home-search .field .search_input {
-		 color: #a3a3a3 !important;
-		 font-weight: 400;
-		 font-size: 16px !important;
-	}
-	 .hero-content .fields.home-search .field .grab-location-icon, .hero-content .fields.home-search .field .grab-calendar-icon, .hero-content .fields.home-search .field .grab-user-icon {
-		 color: #707070 !important;
-		 height: 20px;
-		 width: 20px;
-	}
-	 .hero-content .fields.home-search .DatePicker {
-		 height: auto;
-		 padding-block: 0;
-	}
 
-	.sticky-price{
-		top: 0!important;
-	}
+@media (max-width: 768px) {
+  .v-hotelsList {
+    margin-top: 0 !important;
+ }
+  .hero {
+    min-height: fit-content !important;
+ }
+  .hero-content {
+    background-color: transparent !important;
+    padding-top: 0 !important;
+    background-image: url('https://grab.staging.nuitee.link/grab/bg-wave.svg') !important;
+    background-size: contain !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    padding-inline: 10px;
+ }
+  .hero-content .hero-content-width {
+    gap: 10px;
+    height: fit-content;
+ }
+  .hero-content .grab-title {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-right: 14px;
+ }
+  .hero-content .grabBedIcon {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+ }
+  .hero-content .fields.home-search {
+    padding: 20px !important;
+    border: none !important;
+    box-shadow: 0px 8px 24px 0px #1c1c1c 1A;
+ }
 
-	.p-hotelCard__content__bottom__right__spacer {
-	    align-items: flex-start!important;
-	}
-	 .p-hotelCard .p-hotelCard__content__top__title h3 {
-    font-weight: 700 !important;
+  .hero-content .fields.home-search .search-btn .p-button-icon-left {
+    color: white !important;
+    font-weight: 600 !important;
+ }
+  .hero-content .fields.home-search .search-btn .p-button-label {
+    font-weight: 600 !important;
+    font-style: semi-bold !important;
     font-size: 16px !important;
-    line-height: 26px !important;
+    line-height: 24px !important;
+ }
+  .hero-content .fields.home-search .field {
+    border-radius: 16px !important;
+    height: 56px;
+    padding-block: 0 !important;
+ }
+  .hero-content .fields.home-search .field .autocomplete-trigger, .hero-content .fields.home-search .field .guests-input, .hero-content .fields.home-search .field .search_input {
+    color: #a3a3a3 !important;
+    font-weight: 400;
+    font-size: 16px !important;
+ }
+  .hero-content .fields.home-search .field .grab-location-icon, .hero-content .fields.home-search .field .grab-calendar-icon, .hero-content .fields.home-search .field .grab-user-icon {
+    color: #707070 !important;
+    height: 20px;
+    width: 20px;
+ }
+  .hero-content .fields.home-search .DatePicker {
+    height: auto;
+    padding-block: 0;
+ }
+
+ .sticky-price{
+   top: 0!important;
+ }
+ .p-hotelCard__content__top__spacer__text{
+  gap: 3px !important;
+ }
+
+ .p-hotelCard__content__bottom__right__spacer {
+     align-items: flex-start!important;
+ }
+  .p-hotelCard .p-hotelCard__content__top__title h3 {
+   font-weight: 700 !important;
+   font-size: 16px !important;
+   line-height: 26px !important;
+ }
+ .rating_component_mobile{
+  gap:5px !important;
+ }
+ .p-hotelCard__content__top__score__number{
+  background-color: unset !important;
+  color: #3D3D3D !important;
+  font-weight: 600 !important;
+  font-style: semi-bold!important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  width: fit-content !important;
+  height: fit-content !important;
+  padding: 0px !important;
+ }
+ .p-hotelCard__content__top__address span{
+  color: #3D3D3D !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+ }
+
+ /* Mobile: 12px location icon */
+ .p-hotelCard__content__top__address .LocationPinIcon,
+ .p-hotelCard__content__top__address .address-text-label .LocationPinIcon {
+  width: 12px !important;
+  height: 12px !important;
+ }
+
+ .p-hotelCard__content .label-banner {
+    border: solid 1px #E8E8E8;
+    margin-inline: auto !important;
+    width: 100% !important;
+    justify-content: center !important;
+ }
+ .v-hotelDetail .tab-container{
+   top: 0 !important;
+ }
+ .label-banner img {
+  height: 30px!important;
   }
-  .p-hotelCard__content .label-banner {
-     border: solid 1px #E8E8E8;
+ .label-banner span {
+ font-size: 12px!important;
+ }
+ .label-banner span strong{
+ color: #1A1A1A !important;
+font-weight: 600 !important;
+font-style: semi-bold !important;
+font-size: 12px !important;
+line-height: 16px !important;
+
+ }
+  .grab-currency-description {
+  color: #707070 !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 100% !important;
+ }
+  .p-hotelCard__content__top__score__content__text {
+    color: #707070 !important;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+
   }
-  .v-hotelDetail .tab-container{
-    top: 0 !important;
-  }
-  .label-banner span { 
-	font-size: 12px!important;	  
+  .p-hotelCard__content__top__score__content__reviews {
+    color: #707070 !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 16px !important;
   }
 }
- 
+
+
