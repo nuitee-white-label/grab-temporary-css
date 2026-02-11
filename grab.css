@@ -1,7 +1,7 @@
 /* Grab Custom CSS */
 /* Primary Brand Color */
  :root {
-	 --theme-primary: #00804a;
+	 --theme-primary: #00B14F;
 }
  .hero-content {
 	 background-color: transparent !important;
@@ -47,9 +47,7 @@
 		 border: none !important;
 		 box-shadow: 0px 8px 24px 0px #1c1c1c 1A;
 	}
-	 .hero-content .fields.home-search .search-btn {
-		 background-color: #00b14f !important;
-	}
+	 
 	 .hero-content .fields.home-search .search-btn .p-button-icon-left {
 		 color: white !important;
 		 font-weight: 600 !important;
@@ -87,6 +85,11 @@
 	.p-hotelCard__content__bottom__right__spacer {
 	    align-items: flex-start!important;
 	}
+	 .p-hotelCard .p-hotelCard__content__top__title h3 {
+    font-weight: 700 !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+  }
 	.p-hotelCard__content .label-banner {
 	 border: solid 1px #E8E8E8;
 	}
