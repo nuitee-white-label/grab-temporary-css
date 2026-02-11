@@ -93,5 +93,8 @@
 	.p-hotelCard__content .label-banner {
 	 border: solid 1px #E8E8E8;
 	}
+	 .v-hotelDetail .tab-container{
+		top: 0 !important;
+	 }
 }
  
