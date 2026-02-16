@@ -64,6 +64,48 @@
     height: 56px;
     padding-block: 0 !important;
  }
+ .mobile-fromPrice{
+  border-radius: 24px 24px 0px 0px !important;
+  box-shadow: 0px -2px 12px 0px #1C1C1C1A !important;
+
+ }
+ [data-testid="checkout-payment-section"]{
+  display: none !important;
+ }
+
+.mobile-fromPrice .initialPrice .price{
+  flex-direction: column !important;
+  gap: 0px !important;
+}
+.mobile-fromPrice   button{
+  width: 45% !important;
+  justify-content: center !important;
+  padding-block: 10px !important;
+font-weight: 600 !important;
+font-style: semi-bold !important;
+font-size: 16px !important;
+line-height: 24px !important;
+}
+
+ .drawer-content .field .autocomplete-trigger, .drawer-content .field .guests-input, .drawer-content .field .search_input {
+  color: #a3a3a3 !important;
+  font-weight: 400;
+  font-size: 16px !important;
+ }
+ .drawer-content .field .autocomplete-trigger{
+  padding-left: 28px !important;
+ }
+ /* date-description span is teleported outside #app; use body + span classes for specificity */
+ body .drawer-content .field.mid .date-description span.label.search_input {
+  color: #a3a3a3 !important;
+  font-weight: 400 !important;
+  font-size: 16px !important;
+ }
+ .drawer-content .field .grab-location-icon, .drawer-content .field .grab-calendar-icon, .drawer-content .field .grab-user-icon {
+  color: #707070 !important;
+  height: 20px;
+  width: 20px;
+ }
   .hero-content .fields.home-search .field .autocomplete-trigger, .hero-content .fields.home-search .field .guests-input, .hero-content .fields.home-search .field .search_input {
     color: #a3a3a3 !important;
     font-weight: 400;
@@ -203,4 +245,46 @@ line-height: 16px !important;
     .filters-footer  .clear-filters button i{
       color: var(--theme-primary) !important;
     }
+    body .language-currency-selector .p-dialog-header, body .select-guests-header, body .mobile-datepicker-drawer .header{
+      flex-direction: row-reverse !important;
+      justify-content: flex-end !important;
+      gap: 16px !important;
+    }
+    body .mobile-datepicker-drawer .header{
+      margin-left: 46px !important;
+    }
+    body .mobile-datepicker-drawer .header .close-drawer{
+      left: 10px !important;
+
+    }
+    body .select-guests-header{
+      border-bottom: none !important;
+    }
+    body .select-guests-header .close-btn{
+      margin-left: 0 !important;
+    }
+    body .select-guest-footer button{
+        font-weight: 600 !important;
+        font-style: semi-bold !important;
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .loyalty-program-membership-container{
+      display: none !important;
+    }
+
+    .p-booking--container .voucher-section{
+      display: none !important;
+    }
+    /* Reserve space at bottom so content isn't hidden behind fixed CTA */
+    .p-booking--container .p-booking__left{
+      padding-bottom: 100px !important;
+    }
+
+    .p-booking__nextCTA button i{
+      display: none !important;
+    }
+
+
+
 }
