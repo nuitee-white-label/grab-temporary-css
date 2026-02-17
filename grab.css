@@ -1,8 +1,5 @@
 /* Grab Custom CSS */
-/* Primary Brand Color */
-:root {
-  --theme-primary: #00B14F;
-}
+/* Primary brand color: set by base.eta script from presetBundles.grab.settings.theme.primary */
 .hero-content {
   background-color: transparent !important;
   padding-top: 0 !important;
@@ -18,7 +15,7 @@
   .hero-content {
     background-color: transparent !important;
     padding-top: 0 !important;
-    background-image: url('https://grab.staging.nuitee.link/grab/bg-wave.svg') !important;
+    background-image: url('/grab/bg-wave.svg') !important;
     background-size: contain !important;
     background-position: top center !important;
     background-repeat: no-repeat !important;
@@ -230,11 +227,6 @@ line-height: 16px !important;
     overflow: hidden !important;
   }
 
-  .filters-mobile .p-dialog-header .heading{
-    flex-direction: row-reverse !important;
-    justify-content: flex-end !important;
-    gap: 16px !important;
-}
     .filters-footer  .clear-filters{
     width: 3rem !important;
     height: 3rem !important;
@@ -284,7 +276,60 @@ line-height: 16px !important;
     .p-booking__nextCTA button i{
       display: none !important;
     }
+    .search-mobile-drawer .drawer-title{
+      margin-left: 36px !important;
+     }
+ .search-mobile-drawer .drawer-close{
+  left: 16px !important;
+  right: auto !important;
+ }
 
+ /* Grab bottom sheets: hide default close (use custom header/down arrow) */
+ .grab-bottom-sheet .p-dialog-header-icons {
+  display: none !important;
+ }
 
+ /* Filters modal: bottom-sheet header layout and close button styling */
+ .filters-mobile.grab-bottom-sheet .heading {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  padding-bottom: 0 !important;
+ }
+ .filters-mobile.grab-bottom-sheet .FilterModal__CloseBtn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 8px !important;
+  background: none !important;
+  border: none !important;
+  cursor: pointer !important;
+  color: var(--theme-gray-700) !important;
+  font-size: 24px !important;
+ }
 
+ /* Rates dialog: custom header (structure in Rates.vue) */
+ .rates-dialog-header--grab {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+ }
+ .rates-dialog-header__title {
+  margin: 0 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+ }
+ .rates-dialog-header__close {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 8px !important ;
+  background: none !important ;
+  border: none !important;
+  cursor: pointer !important;
+  color: var(--theme-gray-700) !important;
+  font-size: 24px !important;
+ }
 }
