@@ -39,6 +39,7 @@
     object-fit: cover;
     object-position: center;
     z-index: 1;
+    margin-top: 2rem;
  }
   .hero-content .fields.home-search {
     padding: 20px !important;
@@ -171,6 +172,7 @@ line-height: 24px !important;
  }
  .v-hotelDetail .tab-container{
    top: 0 !important;
+   z-index: 1 !important;
  }
  .label-banner img {
   height: 30px!important;
@@ -374,5 +376,8 @@ align-items: flex-start !important;
 
  .roomsOptions .show-all-rooms-button{
   flex-shrink: 0 !important;
+ }
+ .p-mobile-search{
+  width: 88% !important;
  }
 }
