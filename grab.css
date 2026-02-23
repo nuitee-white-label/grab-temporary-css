@@ -84,7 +84,10 @@ font-style: semi-bold !important;
 font-size: 16px !important;
 line-height: 24px !important;
 }
+   /* GRAB FRIEND AND REFERRALS  */
+body > div.grab-floating-user-button > div > div > ul > li:nth-child(4) > a {display:none;}
 
+  
  .drawer-content .field .autocomplete-trigger, .drawer-content .field .guests-input, .drawer-content .field .search_input {
   color: #a3a3a3 !important;
   font-weight: 400;
