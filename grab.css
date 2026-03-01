@@ -408,4 +408,126 @@ align-items: flex-start !important;
  width: 20px !important;
  height: 20px !important;
  }
+ .confirmation{
+  max-width: 96% !important;
+  gap:40px !important;
+ }
+ .grab-confirmation{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .grab-confirmation-coins-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    .grab-confirmation-coins-section-title{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 26px;
+      color: #000000;
+    }
+    .grab-confirmation-coins-section-text{
+      font-family: Inter !important;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #3D3D3D;
+    }
+  }
+  .grab-confirmation-esim-section{
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid #E8E8E8;
+    border-radius: 16px;
+    padding: 8px;
+    .grab-confirmation-esim-section-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 8px;
+      h3{
+        font-family: Inter !important;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color: #1A1A1A;
+      }
+      p{
+        font-family: Inter !important;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0%;
+        color: #707070;
+      }
+      .grab-confirmation-esim-section-content-icon{
+        display: flex;
+        gap: 8px;
+        border: 1px solid  #E8E8E8;
+        border-radius: 6px;
+        padding: 4px 8px;
+        i{
+           transform: scaleX(-1);
+        }
+
+      }
+      .btn{
+          background-color: color-mix(in srgb, var(--theme-primary), #fff 95%) !important;
+          padding: 6px 16px !important;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          color: #184440;
+          min-height: unset !important;
+        }
+  }
+}
+  .grab-confirmation-advance-booking-section{
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: space-between;
+    border: 1px solid #E8E8E8;
+    border-radius: 16px;
+    padding: 8px;
+    .grab-confirmation-advance-booking-section-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 8px;
+      h3{
+        font-family: Inter !important;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0%;
+        color: #1A1A1A;
+      }
+      p{
+        font-family: Inter !important;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        letter-spacing: 0%;
+        color: #707070;
+      }
+
+      .btn{
+          background-color: color-mix(in srgb, var(--theme-primary), #fff 95%) !important;
+          padding: 6px 16px !important;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          color: #184440;
+          min-height: unset !important;
+        }
+  }}
+ }
 }
