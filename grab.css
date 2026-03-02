@@ -105,6 +105,7 @@ line-height: 24px !important;
   width: 20px;
  }
  .hero-content .fields.home-search .field .autocomplete-trigger, .hero-content .fields.home-search .field .guests-input, .hero-content .fields.home-search .field .search_input {
+   color: var(--theme-gray-800) !important;
     font-weight: 400;
     font-size: 16px !important;
  }
