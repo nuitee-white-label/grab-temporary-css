@@ -109,11 +109,14 @@ line-height: 24px !important;
     font-weight: 400;
     font-size: 16px !important;
  }
-  .hero-content .fields.home-search .field .grab-location-icon, .hero-content .fields.home-search .field .grab-calendar-icon, .hero-content .fields.home-search .field .grab-user-icon {
+  .fields.home-search .autocomplete-trigger, .hero-content .fields.home-search .field .grab-location-icon, .hero-content .fields.home-search .field .grab-calendar-icon, .hero-content .fields.home-search .field .grab-user-icon {
     color: #707070 !important;
     height: 20px;
     width: 20px;
  }
+  .fields.home-search .autocomplete-trigger {
+    color: var(--theme-gray-800)!important;
+  }
   .hero-content .fields.home-search .DatePicker {
     height: auto;
     padding-block: 0;
