@@ -62,7 +62,6 @@
   .mobile-fromPrice {
     border-radius: 24px 24px 0px 0px !important;
     box-shadow: 0px -2px 12px 0px #1C1C1C1A !important;
-    bottom: 4.5rem !important;
   }
   [data-testid="checkout-payment-section"] {
     display: none !important;
@@ -531,7 +530,35 @@
       }
     }
   }
+  .grab-privacy{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 0;
+    padding: 1.25rem !important;
+    border: 1px solid #e5e7eb;
+  }
+  .grab-privacy-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  .grab-privacy-content{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #3D3D3D;
+  }
+  .grab-privacy-content a{
+    text-decoration: none;
+    color: #0000EE;
+  }
   .l-hotelslist-list .hotels-list{
     gap: 8px !important;
+    margin-bottom: 2.5rem !important;
+  }
+  body.MapLayout .filters-list--overlay {
+    top:88px !important;
   }
 }
