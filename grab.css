@@ -154,7 +154,7 @@
     width: 12px !important;
     height: 12px !important;
   }
-  .p-hotelCard__content .label-banner {
+  .p-hotelCard__content .label-banner, .p-homeHotelCard .label-banner {
     border: solid 1px #E8E8E8;
     margin-inline: auto !important;
     width: 100% !important;
