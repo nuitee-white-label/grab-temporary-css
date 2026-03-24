@@ -33,11 +33,11 @@
     padding-right: 14px;
   }
   .hero-content .grabBedIcon {
-    width: 130px;
-    height: 130px;
+    height: 110px;
     object-fit: cover;
     object-position: center;
     z-index: 1;
+    margin-right: -2rem;
   }
   .hero-content .fields.home-search {
     padding: 20px !important;
