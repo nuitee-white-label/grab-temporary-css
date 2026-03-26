@@ -4,6 +4,10 @@
   background-color: transparent !important;
   padding-top: 0 !important;
 }
+/* Home Carousels */
+.base-carousel-shell__header h2 {
+  font-size: 24px !important;
+}
 @media (max-width: 768px) {
   .v-hotelsList {
     margin-top: 0 !important;
