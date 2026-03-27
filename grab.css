@@ -277,7 +277,7 @@
   }
   /* Reserve space at bottom so content isn't hidden behind fixed CTA */
   .p-booking--container .p-booking__left {
-    padding-bottom: 130px !important;
+    padding-bottom: 146px !important;
   }
   .p-booking__nextCTA button i {
     display: none !important;
