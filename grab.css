@@ -5,9 +5,9 @@
   padding-top: 0 !important;
 }
 /* Home Carousels */
-.base-carousel-shell__header h2 {
-  font-size: 24px !important;
-}
+// .base-carousel-shell__header h2, .skeleton-section-header h2 {
+//   font-size: 24px !important;
+// }
 @media (max-width: 768px) {
   .v-hotelsList {
     margin-top: 0 !important;
@@ -66,9 +66,9 @@
     border-radius: 24px 24px 0px 0px !important;
     box-shadow: 0px -2px 12px 0px #1C1C1C1A !important;
   }
-  [data-testid="checkout-payment-section"] {
-    display: none !important;
-  }
+  // [data-testid="checkout-payment-section"] {
+  //   display: none !important;
+  // }
   .mobile-fromPrice .initialPrice .price {
     flex-direction: column !important;
     gap: 0px !important;
@@ -277,7 +277,7 @@
   }
   /* Reserve space at bottom so content isn't hidden behind fixed CTA */
   .p-booking--container .p-booking__left {
-    padding-bottom: 155px !important;
+    padding-bottom: 130px !important;
   }
   .p-booking__nextCTA button i {
     display: none !important;
